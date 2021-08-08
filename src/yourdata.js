@@ -16,11 +16,11 @@ import instagramIcon from "./images/instagram.svg"
 
 
 // Project Images
-import dailyTaskManager from './images/daily-task-manager.jpeg'
-import runningDashboard from './images/runningDashboard.jpeg'
+import dailyTaskManager from './images/daily-task-manager.png'
+import runningDashboard from './images/runningDashboard.png'
 
 //About image
-import profileImage from './images/profilephoto.jpg'
+import profileImage from './images/profilephoto.png'
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
