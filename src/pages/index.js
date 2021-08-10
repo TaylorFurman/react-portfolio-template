@@ -18,8 +18,6 @@ const IndexPage = () => (
     <Work></Work>
     <About></About>
     <Skills></Skills>
-    <BackendSkills></BackendSkills>
-    <Promotion></Promotion>
     <Footer></Footer>
   </Layout>
 )

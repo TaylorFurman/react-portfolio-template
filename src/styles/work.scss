@@ -11,7 +11,8 @@
   .grid {
     display: grid;
     margin-top: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    //Change below when importing new projects
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     @include media(">=phone", "<lgphone") {
       grid-template-columns: 1fr;

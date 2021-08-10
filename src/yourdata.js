@@ -1,11 +1,14 @@
 // Skills Icons
-import htmlIcon from "./images/html.svg"
+import htmlIcon from "./images/html-5.svg"
 import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
-import jsIcon from "./images/javascript.svg"
+import reactIcon from "./images/react-js.svg"
+import jsIcon from "./images/icons8-javascript.svg"
 import codeIcon from "./images/code.svg"
 import node from './images/nodejs.svg'
-import linkedin from './images/linkedin.svg';
+import git from './images/git.svg'
+import postgresql from './images/postgresql.svg'
+import express from './images/express-js.svg'
+import materialUi from './images/material-ui-1.svg'
 
 
 // Social Icon
@@ -13,6 +16,7 @@ import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import linkedin from './images/linkedin.svg';
 
 
 // Project Images
@@ -30,7 +34,7 @@ export default {
   name: "Taylor",
   headerTagline: [
     //Line 1 For Header
-    "Full Stack Web Developer",
+    "Web Developer",
     //Line 2 For Header
     "Software Engineer",
     //Line 3 For Header
@@ -67,16 +71,16 @@ export default {
       //Project URL - Add Your Project Url Here
       url: "https://runnerdashboard.herokuapp.com/",
     },
-    {
-      title: "Project Three", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
+    // {
+    //   title: "Project Three", //Project Title - Add Your Project Title Here
+    //   para:
+    //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+    //   //Project Image - Add Your Project Image Here
+    //   imageSrc:
+    //     "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+    //   //Project URL - Add Your Project Url Here
+    //   url: "http://chetanverma.com/",
+    // },
     
     
     
@@ -100,7 +104,7 @@ export default {
   aboutParaTwo:
     "I attended Texas A&M University Galveston for my Bachelor's degree in Marine Science with a Chemistry minor. Upon graduating, I have worked at a third-party testing laboratory in the oil and gas industry. I eventually found myself interested in learning new skills that would further enhance my career. So, I decided to enroll at DigitalCrafts for their full-stack web development flex coding boot camp, and recently graduated.",
   aboutParaThree:
-    "As a software engineer, I enjoy consistently learning new technologies and skills that challenge me to further develop myself.",
+    "As a software engineer, I enjoy consistently learning new technologies and skills that challenge me to continue to grow.",
   aboutImage:
   profileImage,
 
@@ -113,44 +117,34 @@ export default {
   skills: [
     {
       img: htmlIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
+      },
     {
       img: cssIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
+      },
     {
       img: jsIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
+      },
     {
       img: reactIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
+      },
     {
       img: node,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
+     },
     {
-      img: codeIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
+      img: git,
+     },
+    {
+      img: postgresql,
+     },
+    {
+      img: express,
+     },
+    {
+      img: materialUi,
+      },
   ],
 
   // End Skills Section --------------------------
-
-  //   Promotion Section --------------------------
-
-  promotionHeading: "Heading",
-  promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-  // End Promotion Section -----------------
 
   //   Contact Section --------------
 
