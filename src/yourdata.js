@@ -22,6 +22,7 @@ import linkedin from './images/linkedin.svg';
 // Project Images
 import dailyTaskManager from './images/daily-task-manager.png'
 import runningDashboard from './images/runningDashboard.png'
+import DTM from './components/dailytask.js'
 
 //About image
 import profileImage from './images/profilephoto.png'
@@ -57,7 +58,7 @@ export default {
         "A task manager that would give various goals based on different categories that ranged from short-, medium-, and long-term goals.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        dailyTaskManager,
+        "./static/daily-task-manager-ed2e2dbef63a38a529f527b14d03bcf4.png",
       //Project URL - Add Your Project Url Here
       url: "https://taylorfurman.github.io/daily-task-manager/",
     },
