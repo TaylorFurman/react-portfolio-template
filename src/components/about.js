@@ -2,6 +2,13 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../yourdata"
 
+import { StaticImage } from "gatsby-plugin-image"
+export function Dino() {
+  return <StaticImage src="../images/daily-task-manager.png" alt="Project photo 1" />
+}
+
+
+
 const About = () => {
   return (
     <div className="secion" id="about">
